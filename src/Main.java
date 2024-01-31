@@ -20,9 +20,6 @@ public class Main {
         if (isOverEighteen){
             System.out.println("test");
         }
-
-
-
     }
 }
 
