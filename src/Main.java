@@ -1,6 +1,20 @@
+import java.util.Scanner;
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
-        double age = 15.3;
+        Scanner scan = new Scanner(System.in);
+        Random rand = new Random();
+
+        System.out.println("Wie viele Personen wollen spielen?");
+
+        int playerCount = scan.nextInt();
+
+        for(int i = 0; i < playerCount; i++) { //arbeite mit break
+            System.out.println(playerCount); //jeder Spieler darf seinen Move ausführen
+        }
+
+        /*double age = 15.3;
         String name = "Sebi ";
 
         System.out.println("Hallo ich bin " + name + "und bin " + age + " Jahre alt.");
@@ -16,5 +30,6 @@ public class Main {
         if(isOverEighteen) {
             System.out.println("HAHHAHA Test");
         }
+         */
     }
 }
