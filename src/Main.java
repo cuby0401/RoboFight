@@ -4,14 +4,16 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        //Random rand = new Random();
+        Random rand = new Random();
 
         System.out.println("Wie viele Personen wollen spielen?");
 
         int playerCount = scan.nextInt();
 
-        for(int i = 0; i < playerCount; i++) { //arbeite mit break
-            System.out.println(playerCount); //jeder Spieler darf seinen Move ausführen
+        for(int i = 0; i != playerCount; i++) { //arbeite mit break
+            int player = 0;
+            //System.out.println(playerCount); //jeder Spieler darf seinen Move ausführen
+            player 
         }
 
         /*double age = 15.3;
